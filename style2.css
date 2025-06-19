@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    min-height: 90vh;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.header {
+    height: 20vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.mainlogo img {
+    position: relative;
+    z-index: 10;
+}
+
+.nav {
+    width: 17vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav button {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px 20px;
+}
+
+.eng {
+    background-color: rgba(23,23,23,0.148);
+    opacity: 0.7;
+    border: white solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.eng p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.signin {
+    background-color: red;
+    border: solid black 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    padding: 60px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+    position: relative;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    padding: 0 30px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.smolheading {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.smoller {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.reg {
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.reg input {
+    flex: 1;
+    min-width: 200px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(23,23,23,0.7);
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid grey 1px;
+}
+
+.reg button {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: red;
+    padding: 5px 18px;
+    border-radius: 4px;
+    color: white;
+    border: solid red 1px;
+}
+
+.greysep {
+    height: 8px;
+    width: 100vw;
+    background-color: rgb(50, 47, 47);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 50px;
+    flex-wrap: wrap;
+}
+
+.fc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.fc .fch {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.fc .fcs {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.fi {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fi img {
+    width: 100%;
+    max-width: 555px;
+}
+
+.fi video {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    height: 220px;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 40px;
+}
+
+.faq h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.faq .box {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ques:hover {
+    background-color: #858181;
+}
+
+.ques {
+    cursor: pointer;
+    padding: 20px 20px;
+    background-color: rgb(65, 61, 61);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease-in;
+}
+
+.que {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.ques svg {
+    height: 50px;
+}
+
+.again .reg1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.reg1 input {
+    padding-right: 50px;
+}
+
+.again {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.questions {
+    padding: 30px 5vw;
+    color: rgb(183, 173, 173);
+}
+
+.footeles {
+    display: flex;
+    gap: 15vw;
+    padding: 10px 5vw;
+    flex-wrap: wrap;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot a {
+    color: rgb(183, 173, 173);
+}
+
+.eng1 {
+    margin: 30px 5vw;
+    padding: 5px 20px;
+    background-color: rgba(23,23,23,0.148);
+}
+
+.eng1 p {
+    color: white;
+}
+
+.end {
+    color: rgb(183, 173, 173);
+    padding: 30px 5vw;
+}
+
+/* Tablets */
+@media screen and (max-width: 1080px) {
+    .first {
+        padding: 20px;
+    }
+
+    .fc {
+        align-items: center;
+        text-align: center;
+    }
+
+    .fi img {
+        width: 100%;
+    }
+
+    .fi video {
+        position: absolute;
+        top: 92px;
+        left: 220px;
+        height: 220px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .title .heading {
+        font-size: 32px;
+    }
+
+    .title .smolheading {
+        font-size: 16px;
+    }
+
+    .first {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .fc {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fc .fch {
+        font-size: 28px;
+    }
+
+    .fc .fcs {
+        font-size: 16px;
+    }
+
+    .fi {
+        width: 100%;
+    }
+
+    .fi img {
+        width: 100%;
+    }
+
+    .fi video {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .faq {
+        padding: 20px;
+    }
+
+    .faq h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .footeles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .greysep {
+        height: 8px;
+        width: 100%;
+    }
+}
