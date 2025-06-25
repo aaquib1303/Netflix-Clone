@@ -5,5 +5,4 @@ Developed a responsive front-end clone of Netflix’s landing page using HTML an
 – Tools & technologies used : 
 HTML5, CSS3, Google Fonts, Flexbox, Media Queries
 
-– More description on the project
-Delivered a fully responsive and visually engaging replica of the official Netflix homepage. The project improved my understanding of front-end design principles, responsiveness, and layout structuring, while showcasing my ability to recreate real-world interfaces using only HTML and CSS.
+– Delivered a fully responsive and visually engaging replica of the official Netflix homepage. The project improved my understanding of front-end design principles, responsiveness, and layout structuring, while showcasing my ability to recreate real-world interfaces using only HTML and CSS.
